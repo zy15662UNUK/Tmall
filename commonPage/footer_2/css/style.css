@@ -26,6 +26,9 @@ button:active{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.copyRightYear{
+  margin: 10px 0;
+}
 .white_link{
   margin: 0 10px;
   padding-top: 10px;
