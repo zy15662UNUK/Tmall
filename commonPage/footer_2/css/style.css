@@ -1,0 +1,41 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 12px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 750px;
+}
+.copyright{
+  background-color: black;
+}
+.license{
+  color: #A4A4A4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.white_link{
+  margin: 0 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.white_link a,
+.white_link .slash{
+  color: white;
+}
+span{
+  font-weight: bold;
+  margin: 10px;
+}
