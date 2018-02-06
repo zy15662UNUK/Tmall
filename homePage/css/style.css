@@ -1,0 +1,157 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 750px;
+}
+.container-top{
+  min-width: 750px;
+  margin-left: 97.2px;
+  margin-right: 97.2px;
+}
+.categoryMenu{
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  top: 52px;
+  left: 97.5px;
+  background-color: #e2e2e3;
+  z-index: 1;
+}
+.eachCategory:hover{
+  background-color: white;
+}
+.eachCategory a{
+  color: black;
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.eachCategory span{
+  margin-left: 5px;
+}
+.img-slider{
+  background-color: #e5e5e5;
+  height: 500px;
+}
+.homePage-nav{
+  background-color: #DD2727;
+  line-height: 25px;
+}
+/* Menu css starts */
+.homepageCategoryProducts{
+  margin: 20px 200px;
+}
+.eachHomepageCategoryProducts{
+  margin: 10px auto;
+  min-width: 1050px;
+}
+.left-mark{
+  height: 20px;
+  width: 5px;
+  display: inline-block;
+  background-color: #19C8A9;
+  vertical-align: bottom;
+}
+.productItem{
+  display: block;
+  width: 200px;
+  height: 285px;
+  border: 1px solid white;
+  background-color: white;
+  margin: 8px auto;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+}
+.productItem:hover {
+    border: 1px solid #C40000;
+}
+.productItem a{
+  width: 100%;
+  display: block;
+}
+.productItem a img{
+  width: 100%;
+  height: 190px;
+}
+.productItemDesc{
+  font-size: 12px;
+  margin: auto 5px;
+}
+.productPrice{
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto 5px;
+  color: red;
+}
+.categoryTitle{
+  font-size: 16px;
+  margin-left: 30px;
+  color: #646464;
+  font-weight: bold;
+}
+/* Menu css ends */
+.min-width{
+  min-width: 1000px!important;
+}
+.navbar-active{
+  background-color: #C60A0A;
+  width: 200px;
+  font-weight: bold;
+}
+.nav-item a{
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.productsAsideCategorys{
+  display: none;
+  position: absolute;
+  left: 297.5px;
+  top: 52px;
+  background-color: white;
+  z-index: 1;
+  height: 500px;
+  width: 1020px;
+}
+.productsAsideCategorys .line{
+  margin: 20px 80px 0px 80px;
+  line-height: 36px;
+}
+.productsAsideCategorys .line a{
+  margin: 8px;
+  font-size: 14px;
+  color: #999;
+}
+.show{
+  display: block;
+}
+@media screen and (max-width:750px) {
+  .container-top,
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .categoryMenu{
+    left: 20px;
+  }
+  .productsAsideCategorys{
+    left: 220px;
+  }
+}
