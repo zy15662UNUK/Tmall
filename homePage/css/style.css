@@ -27,10 +27,15 @@ button:active{
   width: 200px;
   height: 500px;
   position: absolute;
-  top: 52px;
   left: 97.5px;
   background-color: #e2e2e3;
   z-index: 1;
+}
+.catear{
+  position: absolute;
+  display: none;
+  width: 40px;
+  height: 20px;
 }
 .eachCategory:hover{
   background-color: white;
@@ -50,7 +55,8 @@ button:active{
 }
 .homePage-nav{
   background-color: #DD2727;
-  line-height: 25px;
+  line-height: 36px;
+  margin-top: 20px;
 }
 /* Menu css starts */
 .homepageCategoryProducts{
@@ -123,7 +129,6 @@ button:active{
   display: none;
   position: absolute;
   left: 297.5px;
-  top: 52px;
   background-color: white;
   z-index: 1;
   height: 500px;
