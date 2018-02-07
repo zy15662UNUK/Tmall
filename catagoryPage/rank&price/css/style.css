@@ -45,6 +45,7 @@ button:active{
 }
 .priceMiddleColumn{
   width: 12px;
+  padding-left: 3px;
 }
 .sortBarPrice{
   width: 55px;
