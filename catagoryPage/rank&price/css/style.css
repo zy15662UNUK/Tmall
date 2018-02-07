@@ -1,0 +1,52 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 750px;
+}
+.categoryPageDiv{
+  max-width: 1013px;
+  margin: 10px auto;
+  background-color: #FAF9F9;
+  font-size: 12px;
+}
+.categorySortBarTable{
+  display: inline-block;
+  height: 20px;
+  margin: auto 10px;
+}
+.categorySortTable tbody tr td{
+  padding: 1px;
+  border: 1px solid #CCCCCC;
+  height: 17px;
+}
+.categorySortTable tbody tr td:hover{
+  background-color: #F1EDEC;
+}
+.fa-long-arrow-alt-down{
+  font-weight: bold;
+}
+.grayColumn{
+  background-color: #F1EDEC;
+}
+.priceMiddleColumn{
+  width: 12px;
+}
+.sortBarPrice{
+  width: 55px;
+  height: 22px;
+}
