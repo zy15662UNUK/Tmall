@@ -1,0 +1,194 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 750px;
+}
+/* left img css */
+.bigImg{
+  width: 358px;
+  height: 357px;
+  border: 1px solid #F2F2F2;
+  padding: 22px;
+
+}
+.imgAndInfo{
+  width: 400px;
+  height: 550px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+.smallImageDiv{
+  margin: 15px auto;
+}
+.smallImage{
+  margin: 5px;
+}
+.smallImage:hover{
+  cursor: pointer;
+  border: 2px solid black;
+}
+/* right information css */
+.infoInimgAndInfo{
+  width: 535px;
+  height: 400px;
+  display: inline-block;
+}
+.productTitle{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+.productSubTitle{
+  margin-left: 10px;
+  color: #DD2727;
+  font-size: 12px;
+  margin: 0px 10px;
+}
+.discount{
+  background-color: #2DA77A;
+  width: 535px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding-top: 6px;
+}
+.discountBig{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.discountTime{
+  color: #FFC057;
+  font-weight: bold;
+}
+.productPriceDiv{
+  width: 535px;
+  height: 105px;
+  background-color: #ced5db;
+  color: #666666;
+  padding-top: 10px;
+}
+.voucherDiv,
+.originalDiv,
+.promotionDiv{
+  margin-left: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.originalPriceYuan{
+  margin-left: 40px;
+
+}
+.originalPrice{
+  text-decoration: line-through;
+}
+.promotionPriceYuan{
+  margin-left: 40px;
+  color: #c40000;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+.promotionPrice{
+  color: #c40000;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+.productSaleAndReviewNumber{
+  width: 535px;
+  height: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+.productSaleAndReviewNumber div{
+  display: inline-block;
+  border: 1px dotted #C9C9C9;
+  width: 265.5px;
+  padding: 5px;
+  font-size: 12px;
+  color: #E5DFDA;
+}
+.productSaleAndReviewNumber div span{
+  color: #C40000;
+  font-weight: bold;
+}
+.productNumber{
+  width: 535px;
+  font-size: 12px;
+  color: #E5DFDA;
+}
+.productNumber input{
+ font-size: 12px;
+ color: #E5DFDA;
+ width: 42px;
+ height: 32px;
+}
+.arrow{
+  display: inline-block;
+  vertical-align: bottom;
+  margin: auto 10px;
+}
+.arrow a{
+  display: block;
+  width: 20px;
+  height: 13px;
+  border: 1px solid #E5DFDA;
+  text-align: center;
+}
+.updown img{
+  margin-bottom: 5px;
+}
+.serviceCommitment{
+  width: 535px;
+  font-size: 12px;
+  color: #E5DFDA;
+  margin: 10px auto;
+}
+.buyDiv{
+  text-align: center;
+  width: 535px;
+  font-size: 16px;
+  margin: 30px auto;
+}
+.buyDiv a button{
+  width: 180px;
+  height: 42px;
+  margin: auto 10px;
+}
+.buyButton{
+  border: 1px solid #C40000;
+  background-color: #FFEDED;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #C40000;
+  font-family: arial;
+}
+.addCartButton{
+  border: 1px solid #C40000;
+  background-color: #C40000;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: white;
+  font-family: arial;
+}
