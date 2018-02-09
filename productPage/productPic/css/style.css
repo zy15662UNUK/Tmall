@@ -16,7 +16,7 @@ button:active{
   transform: translateY(5px);
 }
 .container{
-  min-width: 750px;
+  min-width: 1000px;
 }
 /* left img css */
 .bigImg{
@@ -191,4 +191,82 @@ button:active{
   font-size: 16px;
   color: white;
   font-family: arial;
+}
+/* css for product details */
+.productDetailDiv{
+  width: 790px;
+  margin-left: 95px;
+  border: 1px solid #DFDFDF
+}
+.productDetailImagesPart img{
+  width: 100%;
+}
+.productDetailTopPart{
+  height: 50px;
+  border: 1px solid #DFDFDF;
+}
+.productDetailTopPart a{
+  height: 49px;
+  line-height: 46px;
+  color: black;
+  text-align: center;
+  width: 90px;
+  padding: 0px 5px;
+}
+.selected{
+  border-left: 1px solid #cfbfb1;
+  border-right: 1px solid #cfbfb1;
+  color: #b10000!important;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 46px;
+  width: 90px;
+  position: relative;
+}
+.selected::before{
+  content: "";
+  border: 1px solid #b00000;
+  width: 90px;
+  height: 0;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+.selected::after{
+  border-color: #b00000 transparent transparent;
+  /* 美人尖的原理是只有上边框，其他边框是透明色，#b00000 transparent transparent; 这种写法既表示只有上边框有颜色，其他都是透明色 */
+  border-style: solid;
+  border-width: 5px;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  margin-left: -5px;
+}
+.productDetailTopReviewLinkNumber{
+  color: #3355B9;
+}
+.productParamterPart{
+  height: 220px;
+  border: 1px solid #DFDFDF;
+}
+.productParamter{
+  color: #999999;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+.productParamterList{
+  color: grey;
+  margin: 20px;
+  font-size: 12px;
+}
+.productParamterList span{
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
 }

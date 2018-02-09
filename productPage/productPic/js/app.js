@@ -32,3 +32,10 @@ function productNum(){
   });
 }
 productNum();
+//switching style when clicking productParamter
+$(".productDetailTopPart a").click(function(event) {
+  if(!$(this).hasClass('selected')){
+    $(this).toggleClass('selected');
+    $(this).siblings('a').toggleClass('selected');
+  }
+});
