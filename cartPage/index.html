@@ -13,12 +13,12 @@
   <body>
     <div class="container">
       <div class="cartDiv">
-      	<div class="cartTitle float-right">
+      	<div class="cartTitle text-right">
       		<span>已选商品  (不含运费)</span>
       		<span class="cartTitlePrice">￥0.00</span>
       		<button class="createOrderButton" style="background-color: rgb(170, 170, 170);" disabled="disabled">结 算</button>
       	</div>
-      	<div class="cartContent" style="text-align:center;color:gray;line-height:100px" >
+      	<div class="cartContent" style="text-align:center;color:gray;" >
           <div class="cartProductList">
             <table class="cartProductTable">
               <thead>
@@ -33,7 +33,7 @@
                     <th width="120px">金额</th>
                     <th class="operation">操作</th>
                 </tr>
-            </thead>
+              </thead>
               <tbody>
                     <tr class="cartProductItemTR" oiid="936">
                         <td>
@@ -57,10 +57,8 @@
                         </td>
                         <td>
                             <div class="cartProductChangeNumberDiv">
-                                <span pid="365" class="hidden orderItemStock ">75</span>
-                                <span pid="365" class="hidden orderItemPromotePrice ">5306.0</span>
                                 <a href="#nowhere" class="numberMinus" pid="365">-</a>
-                                <input value="4" autocomplete="off" class="orderItemNumberSetting" oiid="936" pid="365">
+                                <input autocomplete="off" class="orderItemNumberSetting" value="1">
                                 <a href="#nowhere" class="numberPlus" pid="365" stock="75">+</a>
                             </div>
                          </td>
@@ -93,10 +91,8 @@
                         </td>
                         <td>
                             <div class="cartProductChangeNumberDiv">
-                                <span pid="809" class="hidden orderItemStock ">17</span>
-                                <span pid="809" class="hidden orderItemPromotePrice ">152.75</span>
                                 <a href="#nowhere" class="numberMinus" pid="809">-</a>
-                                <input value="1" autocomplete="off" class="orderItemNumberSetting" oiid="935" pid="809">
+                                <input autocomplete="off" class="orderItemNumberSetting" value="1">
                                 <a href="#nowhere" class="numberPlus" pid="809" stock="17">+</a>
                             </div>
                          </td>
@@ -126,7 +122,6 @@
       		</div>
       	</div>
       </div>
-
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
