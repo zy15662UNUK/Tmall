@@ -39,3 +39,12 @@ $(".productDetailTopPart a").click(function(event) {
     $(this).siblings('a').toggleClass('selected');
   }
 });
+//Switch between product details and review
+$(".productDetailTopPartSelectedLink").click(function(event) {
+  $(".productDetail").show();
+  $(".productReview").hide();
+});
+$(".productDetailTopReviewLink").click(function(event) {
+  $(".productReview").show();
+  $(".productDetail").hide();
+});

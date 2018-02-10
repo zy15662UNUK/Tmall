@@ -270,3 +270,28 @@ button:active{
   margin-bottom: 20px;
   display: inline-block;
 }
+/* css for product review */
+.productReview{
+  display: none;
+}
+.productReviewItem{
+  border-bottom: 1px solid #E3E3E3;
+  margin: 10px 0px;
+  height: 115px;
+  padding: 20px;
+  font-size: 12px;
+  color: #333333;
+}
+.productReviewItemUserInfo{
+  float: right;
+  margin-top: -20px;
+}
+.userInfoGrayPart{
+  color: #999999;
+}
+.productReviewItemDate{
+  color: #999999;
+  display: flex;
+  margin-top: 15px;
+  display: inline-block;
+}
