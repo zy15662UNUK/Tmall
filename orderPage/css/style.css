@@ -1,0 +1,60 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 1000px;
+}
+/* top css */
+.orderType{
+  height: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 3px solid #E8E8E8;
+  margin: 20px auto;
+}
+.orderType div{
+  display: inline-block;
+  width: 90px;
+  border-right: 1px solid #E8E8E8;
+  text-align: center;
+}
+.orderType div a{
+  color: black;
+}
+.selectedOrderType{
+  color: #C40000;
+  border-bottom: 3px solid #C40000;
+  padding-bottom: 9px;
+}
+/* order list table */
+.orderListTitle{
+  background-color: #F5F5F5;
+  height: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.orderListTitleTable{
+  width: 1110px;
+}
+.orderListTitle tr td{
+  font-size: 12px;
+  text-align: center;
+}
+.orderListTitle tr td:first-of-type{
+  width: 592px;
+  margin: 0;
+}
