@@ -58,3 +58,50 @@ button:active{
   width: 592px;
   margin: 0;
 }
+/* order list item */
+.orderListItemTable{
+  height: 165px;
+  width: 1110px;
+  margin: 20px auto;
+  font-size: 12px;
+}
+.orderListItemFirstTR{
+  background-color: #F1F1F1;
+  height: 40px;
+}
+.orderListItemFirstTR td:first-of-type{
+  padding-left: 10px;
+}
+.orderListItemProductLinkInnerDiv{
+  margin-top: 20px;
+}
+.orderItemProductInfoPartTD div{
+  font-size: 14px;
+}
+.orderListItemProductOriginalPrice{
+  color: #999999;
+}
+.orderListItemNumberTD,
+.orderListItemProductRealPriceTD,
+.orderListItemButtonTD{
+  padding-top: 50px;
+  padding-left: 15px;
+}
+.orderListItemReview {
+    border: 1px solid #DCDCDC;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #3C3C3C;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+.orderListItemConfirm {
+    background-color: #66B6FF;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 6px 12px;
+}
