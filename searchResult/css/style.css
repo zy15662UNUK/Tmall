@@ -1,0 +1,85 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 750px;
+}
+.categoryProducts{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.categoryPageDiv{
+  max-width: 1013px;
+  margin: 10px auto;
+  background-color: #FAF9F9;
+  font-size: 12px;
+}
+.productUnit{
+  width: 220px;
+  height: 335px;
+  display: inline-block;
+  border: 1px solid #EEEEEE;
+  background-color: white;
+  margin: 12px 5px;
+  float: left;
+}
+.productUnit .productImage{
+  height: 190px;
+  width: 100%;
+}
+.productPrice{
+  font-size: 20px;
+  color: #CC0000;
+  width: 100%;
+  display: block;
+  margin-left: 4px;
+}
+.productLink{
+  color: black;
+  margin: 10px;
+  display: block;
+}
+.tmallLink{
+  margin: 10px;
+  display: block;
+}
+.productInfo{
+  color: black;
+  margin: 10px;
+  display: block;
+}
+.productDealNumber{
+  font-weight: bold;
+  color: #B57C5B;
+  margin-left: 5px;
+}
+.productReviewNumber{
+  font-weight: bold;
+  color: #3388BB;
+  margin-left: 5px;
+}
+.productReview,.monthDeal{
+ border: 1px solid #EEEEEE;
+ padding: 5px;
+}
+.wangwang{
+  float: right;
+}
+.wangwanglink:hover{
+  transform: translateY(-5px);
+
+}
