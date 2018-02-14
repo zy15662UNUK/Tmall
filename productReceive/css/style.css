@@ -78,3 +78,43 @@ button:active{
 .confirmPayOrderItemSumPrice{
   color: #C40000;
 }
+/* confirmPayOrderDetail-lower part */
+.confirmPayOrderDetailDiv{
+  width: 1110px;
+  margin-top: 50px;
+}
+.confirmPayOrderDetailTable,
+.confirmPayOrderDetailTable tr{
+  width: 1110px;
+}
+.confirmPayOrderDetailTable{
+  border-top: 1px solid #DDDDDD;
+}
+.confirmPayOrderDetailTable tr{
+  height: 36px;
+}
+.confirmPayOrderDetailTable tr td{
+  padding-left: 10px;
+}
+.confirmPayButtonDiv{
+  border: 1px solid #F58B0F;
+  margin: 20px;
+}
+.confirmPayWarning{
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+.confirmPayWarning,
+.confirmPayButton{
+  margin: 20px 50px;
+}
+.confirmPayButton{
+  width: 67px;
+  height: 30px;
+  border: 1px solid #E67C00;
+  background-color: #F4A21D;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}

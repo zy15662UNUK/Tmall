@@ -1,0 +1,27 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 1110px;
+}
+.orderFinishDiv{
+  margin: 20px;
+  width: 490px;
+  height: 160px;
+  padding: 40px;
+  border: 1px solid #E5E5E5;
+}
