@@ -1,0 +1,144 @@
+a{
+  color: #999;
+}
+a:hover{
+  text-decoration: none;
+  color: #C40000;
+}
+body{
+  font-size: 14px;
+  font-family: Arial;
+}
+button:hover,button:active{
+  cursor: pointer;
+}
+button:active{
+  transform: translateY(5px);
+}
+.container{
+  min-width: 1110px;
+}
+.reviewProductInfoDiv{
+  width: 1110px;
+  border: 1px solid #E7E7E7;
+  margin-top: 20px;
+  color: #999999;
+  font-size: 12px;
+}
+.reviewProductInfoImg{
+  display: inline-block;
+}
+.reviewProductImg{
+  width: 400px;
+  height: 400px;
+  margin: auto 35px;
+}
+.reviewProductInfoRightDiv{
+  display: inline-block;
+}
+.reviewProductInfoTablePrice {
+  color: #C40000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.reviewProductInfoRightText{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+.reviewProductInfoTableSellNumber{
+  color: #C40000;
+  font-weight: bold;
+  font-size: 14px;
+}
+.reviewProductInfoRightBelowDiv{
+  border: 1px solid #E7E7E7;
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 500px;
+  height: 160px;
+  background-color: #FDFBFA;
+  padding: 10px;
+}
+/* review part*/
+.reviewStasticsDiv{
+  margin: 10px auto;
+  width: 1110px;
+}
+.reviewStasticsLeftTop{
+  width: 180px;
+  background-color: #C40000;
+  height: 8px;
+}
+.reviewStasticsLeft,
+.reviewStasticsRight{
+  display: inline-block;
+  height: 45px;
+}
+.reviewStasticsLeftContent{
+  height: 35px;
+  width: 180px;
+  background-color: #F6F5F1;
+  text-align: center;
+  padding-top: 8px;
+  font-weight: bold;
+
+}
+.reviewStasticsLeftFoot{
+  width: 180px;
+  height: 5px;
+  background-color: #F6F5F1;
+}
+.reviewStasticsRightEmpty{
+  width: 930px;
+  height: 43px;
+  background-color: #ffffff;
+}
+.reviewStasticsFoot{
+  height: 5px;
+  background-color: #F6F5F1;
+  width: 930px;
+}
+.makeReviewDiv{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F6F5F1;
+}
+.makeReviewText{
+  margin: 20px auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+.makeReviewTable{
+  width: 510px;
+  height: 140px;
+  background-color: #ffffff;
+  font-size: 12px
+}
+.makeReviewTable td{
+  padding: 10px;
+}
+.makeReviewTableFirstTD{
+  border-right: 1px solid #E7E7E7;
+}
+.makeReviewTable textarea{
+  width: 420px;
+  height: 120px;
+  resize: none;
+  border: none;
+}
+.makeReviewButtonDiv{
+  background-color: #ffffff;
+  margin: 20px auto;
+}
+.makeReviewButtonDiv button {
+    width: 72px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: #C40000;
+    color: white;
+    border-width: 0px;
+    font-weight: bold;
+    margin: 20px auto;
+}
