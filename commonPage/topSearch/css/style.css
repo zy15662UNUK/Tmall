@@ -16,12 +16,13 @@ button:active{
   transform: translateY(5px);
 }
 .container{
-  min-width: 750px;
+  min-width: 1110px;
 }
 .gif{
   margin-top: 35px;
   display: inline-block;
   z-index: -1;
+  float: left;
 }
 input::-webkit-input-placeholder{
  font-size: 12px;
@@ -58,7 +59,7 @@ color: #999;
   margin: 50px auto;
   display: inline-block;
 }
-span{
+.top-search span{
   color: #999;
   margin-left: 10px;
   margin-right: 10px;

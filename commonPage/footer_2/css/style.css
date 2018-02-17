@@ -38,7 +38,11 @@ button:active{
 .white_link .slash{
   color: white;
 }
-span{
+.footer span{
   font-weight: bold;
   margin: 10px;
+  font-size: 12px;
+}
+.footer a{
+  font-size: 12px;
 }

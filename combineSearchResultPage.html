@@ -4,37 +4,60 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Catagory page</title>
+    <title>search result page</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="..\rank&price\css\style.css" rel="stylesheet" type="text/css">
-    <link href="..\productList\css\style.css" rel="stylesheet" type="text/css">
+    <link href="commonPage\topNav\css\style.css" rel="stylesheet" type="text/css">
+    <link href="commonPage\topSearch\css\style.css" rel="stylesheet" type="text/css">
+    <link href="commonPage\footer_1\css\style.css" rel="stylesheet" type="text/css">
+    <link href="commonPage\footer_2\css\style.css" rel="stylesheet" type="text/css">
+    <link href="searchResult\css\style.css" rel="stylesheet" type="text/css">
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
   </head>
   <body>
-    <div id="top">
-      <div class="categoryPageDiv">
-          <img src="http://how2j.cn/tmall/img/category/72.jpg">
-          <div class="categorySortBar">
-            <table class="categorySortBarTable categorySortTable">
-              <tbody><tr>
-                <td class="grayColumn"><a href="#nowhere">综合 <i class="fas fa-long-arrow-alt-down"></i><span class="glyphicon glyphicon-arrow-down"></span></a></td>
-                <td><a href="#nowhere">人气 <i class="fas fa-long-arrow-alt-down"></i><span class="glyphicon glyphicon-arrow-down"></span></a></td>
-                <td><a href="#nowhere">新品 <i class="fas fa-long-arrow-alt-down"></i><span class="glyphicon glyphicon-arrow-down"></span></a></td>
-                <td><a href="#nowhere">销量 <i class="fas fa-long-arrow-alt-down"></i><span class="glyphicon glyphicon-arrow-down"></span></a></td>
-                <td><a href="#nowhere">价格 <i class="fas fa-arrows-alt-v"></i><span class="glyphicon glyphicon-resize-vertical"></span></a></td>
-              </tr>
-            </tbody></table>
-            <table class="categorySortBarTable">
-              <tbody><tr>
-                <td><input type="text" placeholder="请输入" class="sortBarPrice beginPrice"></td>
-                <td class="grayColumn priceMiddleColumn">-</td>
-                <td><input type="text" placeholder="请输入" class="sortBarPrice endPrice"></td>
-              </tr>
-            </tbody></table>
-          </div>
+    <!-- Top nav -->
+    <nav class="">
+      <div class="container">
+        <div class="left float-left">
+          <span class="nav-one"><i class="fas fa-home"></i></span>
+          <span class="nav-two"><a href="#">天猫首页</a></span>
+          <span class="nav-three">喵，欢迎来天猫</span>
+          <span class="nav-four"><a href="#">请登录</a></span>
+          <span class="nav-five"><a href="#">免费注册</a></span>
+        </div>
+        <div class="right text-right">
+           <span class="nav-six"><a href="#">我的订单</a></span>
+           <span class="nav-seven"><a href="#"><i class="fas fa-shopping-cart"></i> 购物车0件</a></span>
+        </div>
       </div>
+    </nav>
+    <!-- Top search -->
+    <div class="container top-search">
+        <span class="gif">
+          <a href="#nowhere"> <img class="logo" src="http://how2j.cn/tmall/img/site/logo.gif"
+              id="logo">
+          </a>
+        </span>
+        <div class="searchDiv">
+          <div class="searchBox">
+            <input type="text" placeholder="时尚男鞋  太阳镜 " name="keyword">
+            <button class="searchButton" type="submit">搜索</button>
+          </div>
+            <div class="searchBelow">
+                <span> <a href="#nowhere"> 平衡车 </a> <span>|</span>
+                </span>
+                <span> <a href="#nowhere"> 扫地机器人 </a> <span>|</span>
+                </span>
+                <span> <a href="#nowhere"> 原汁机 </a> <span>|</span>
+                </span> <span> <a href="#nowhere"> 冰箱 </a></span>
+            </div>
+        </div>
     </div>
+    <div style="height:50px"></div>
+    <!-- search result -->
+    <div id="top"></div>
     <div class="categoryPageDiv">
       <div class="categoryProducts">
       		<div price="799.2" class="productUnit">
@@ -375,10 +398,115 @@
           </div>
       		<div style="clear:both"></div>
       </div>
-	  </div>
+    <!-- Footer 1 -->
+    <div class="container">
+      <div style="display: block;" class="footer" id="footer">
+        <hr>
+        <div class="footer_ensure text-center" id="footer_ensure">
+          <a href="#nowhere">
+              <img src="http://how2j.cn/tmall/img/site/ensure.png">
+          </a>
+        </div>
+        <hr>
+        <div class="footer_desc" id="footer_desc">
+                <div class="descColumn">
+                    <span class="descColumnTitle">购物指南</span>
+                    <a href="#nowhere">免费注册</a>
+                    <a href="#nowhere">开通支付宝</a>
+                    <a href="#nowhere">支付宝充值</a>
+                </div>
+                <div class="descColumn">
+                    <span class="descColumnTitle">天猫保障</span>
+                    <a href="#nowhere">发票保障</a>
+                    <a href="#nowhere">售后规则</a>
+                    <a href="#nowhere">缺货赔付</a>
+                </div>
+                <div class="descColumn">
+                    <span class="descColumnTitle">支付方式</span>
+                    <a href="#nowhere">快捷支付</a>
+                    <a href="#nowhere">信用卡</a>
+                    <a href="#nowhere">蚂蚁花呗</a>
+                    <a href="#nowhere">货到付款</a>
+                </div>
+                <div class="descColumn">
+                    <span class="descColumnTitle">商家服务</span>
+                    <a href="#nowhere">商家入驻</a>
+                    <a href="#nowhere">商家中心</a>
+                    <a href="#nowhere">天猫智库</a>
+                    <a href="#nowhere">天猫规则</a>
+                    <a href="#nowhere">物流服务</a>
+                    <a href="#nowhere">喵言喵语</a>
+                    <a href="#nowhere">运营服务</a>
+                </div>
+                <div class="descColumn">
+                    <span class="descColumnTitle">手机天猫</span>
+                    <a href="#nowhere"><img src="http://how2j.cn/tmall/img/site/ma.png"></a>
+                </div>
+        </div>
+        <div style="clear:both"></div>
+      </div>
+
+    </div>
+    <!-- Footer 2 -->
+    <div class="container">
+      <div class="footer" id="footer">
+          <img src="http://how2j.cn/tmall/img/site/cateye.png" class="cateye" id="cateye">
+         <div class="copyright" id="copyright">
+          <div class="white_link">
+            <a href="#nowhere">关于天猫</a>
+            <a href="#nowhere"> 帮助中心</a>
+            <a href="#nowhere">开放平台</a>
+            <a href="#nowhere">  诚聘英才</a>
+            <a href="#nowhere">联系我们</a>
+            <a href="#nowhere">网站合作</a>
+            <a href="#nowhere">法律声明</a>
+            <a href="#nowhere">知识产权</a>
+            <a href="#nowhere">  廉正举报	</a>
+          </div>
+          <div class="white_link">
+            <a href="#nowhere"> 阿里巴巴集团</a><span class="slash">|</span>
+            <a href="#nowhere"> 淘宝网</a><span class="slash">|</span>
+            <a href="#nowhere">天猫 </a><span class="slash">|</span>
+            <a href="#nowhere">  聚划算</a><span class="slash">|</span>
+            <a href="#nowhere">全球速卖通</a><span class="slash">|</span>
+            <a href="#nowhere">阿里巴巴国际交易市场</a><span class="slash">|</span>
+            <a href="#nowhere">1688</a><span class="slash">|</span>
+            <a href="#nowhere">阿里妈妈</a><span class="slash">|</span>
+            <a href="#nowhere">  阿里旅行·去啊	</a><span class="slash">|</span>
+            <a href="#nowhere">  阿里云计算	</a><span class="slash">|</span>
+            <a href="#nowhere">  阿里通信 	</a><span class="slash">|</span>
+            <a href="#nowhere">  YunOS	</a><span class="slash">|</span>
+            <a href="#nowhere">  阿里旅行·去啊	</a><span class="slash">|</span>
+            <a href="#nowhere">   万网	</a><span class="slash">|</span>
+            <a href="#nowhere">  高德	</a><span class="slash">|</span>
+            <a href="#nowhere"> 优视 	</a><span class="slash">|</span>
+            <a href="#nowhere">  友盟	</a><span class="slash">|</span>
+            <a href="#nowhere">  虾米	</a><span class="slash">|</span>
+            <a href="#nowhere">  天天动听	</a><span class="slash">|</span>
+            <a href="#nowhere">  来往	</a><span class="slash">|</span>
+            <a href="#nowhere">  钉钉	</a><span class="slash">|</span>
+            <a href="#nowhere">  支付宝 		</a>
+          </div>
+          <div class="license">
+            <span>增值电信业务经营许可证： 浙B2-20110446</span>
+            <span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+            <span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
+            <span>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span>
+              <div class="copyRightYear">© 2003-2016 TMALL.COM 版权所有</div>
+              <div>
+                <img src="http://how2j.cn/tmall/img/site/copyRight1.jpg">
+                <img src="http://how2j.cn/tmall/img/site/copyRight2.jpg">
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js\app.js"></script>
   </body>
 </html>

@@ -19,9 +19,14 @@ button:active{
   min-width: 1110px;
 }
 .orderFinishDiv{
-  margin: 20px;
+  margin: 20px auto;
   width: 490px;
   height: 160px;
   padding: 40px;
   border: 1px solid #E5E5E5;
+  font-weight: bold;
+}
+.orderFinishTextDiv span{
+  color: black!important;
+
 }

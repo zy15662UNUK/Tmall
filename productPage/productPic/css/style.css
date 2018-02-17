@@ -205,9 +205,10 @@ button:active{
   height: 50px;
   border: 1px solid #DFDFDF;
 }
-.productDetailTopPart a{
+.productDetailTopPartSelectedLink,
+.productDetailTopReviewLink{
   height: 49px;
-  line-height: 46px;
+  line-height: 40px;
   color: black;
   text-align: center;
   width: 90px;
@@ -248,6 +249,7 @@ button:active{
 }
 .productDetailTopReviewLinkNumber{
   color: #3355B9;
+  margin: 0;
 }
 .productParamterPart{
   height: 220px;

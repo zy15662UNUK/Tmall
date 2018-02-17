@@ -8,7 +8,7 @@ function sideMenu(){
   $(".eachCategory").hover(function() {
     $(".productsAsideCategorys").toggleClass('show');
   });
-  var categoryMenu_top = parseInt($(".homePage-nav").offset().top)+$(".homePage-nav").height();
+  var categoryMenu_top = parseFloat($(".homePage-nav").offset().top)+$(".homePage-nav").height()+10;
   console.log(categoryMenu_top);
   $(".categoryMenu").css("top",categoryMenu_top+"px");
   $(".productsAsideCategorys").css("top", categoryMenu_top+"px");

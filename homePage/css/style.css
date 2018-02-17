@@ -16,10 +16,10 @@ button:active{
   transform: translateY(5px);
 }
 .container{
-  min-width: 750px;
+  min-width: 1110px;
 }
 .container-top{
-  min-width: 750px;
+  min-width: 1110px;
   margin-left: 97.2px;
   margin-right: 97.2px;
 }
@@ -55,8 +55,9 @@ button:active{
 }
 .homePage-nav{
   background-color: #DD2727;
-  line-height: 36px;
-  margin-top: 20px;
+  /* line-height: 25px; */
+  margin-top: 10px;
+  height: auto;
 }
 /* Menu css starts */
 .homepageCategoryProducts{

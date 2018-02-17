@@ -59,7 +59,7 @@ color: #999;
   margin: 50px auto;
   display: inline-block;
 }
-span{
+.searchDiv span{
   color: #999;
   margin-left: 10px;
   margin-right: 10px;

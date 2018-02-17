@@ -31,7 +31,8 @@ button:active{
 .reviewProductImg{
   width: 400px;
   height: 400px;
-  margin: auto 35px;
+  margin: auto 30px;
+  display: inline-block;
 }
 .reviewProductInfoRightDiv{
   display: inline-block;
