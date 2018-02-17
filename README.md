@@ -10,7 +10,7 @@ This is a front end project which mimics the Tmall(天猫) home page
 - combineCartPage.html: cart page, can make selection, calculate price and number of product, and delete product
 - combineCatagoryPage.html: example of catagory page. Handbag is chosen as the example. Can filter product by input price interval
 - combineCommonPage.html: template for all functional pages, including headers and footers. 
-- combineHomePage.html: homepage. Apply carousel in bootstrap. Also can switch catagory by moving cursor on the left menu bar. However, only one catagory is made
+- combineHomePage.html: homepage. Apply carousel in bootstrap. Also can switch catagory by moving cursor on the left menu bar. However, only one catagory of product is made
 - combineLoginPage.html: login page
 - combineMyorderPage.html: view order page. Filter order by click topbar
 - combinePaymentSuccessPage.html: page when finish payment
